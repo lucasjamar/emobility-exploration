@@ -4,10 +4,10 @@ from pivottablejs import pivot_ui
 import pandas as pd
 import os
 
-abspath = os.path.abspath(__file__)
-dname = os.path.dirname(abspath)
-os.chdir(dname)
-
+# abspath = os.path.abspath(__file__)
+# dname = os.path.dirname(abspath)
+# os.chdir(dname)
+#
 st.set_page_config(layout="wide", page_title="E Mobility")
 st.title("E Mobility Exploration")
 
