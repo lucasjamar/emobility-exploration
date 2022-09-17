@@ -13,4 +13,4 @@ print(df)
 t = pivot_ui(df)
 
 with open(t.src) as t:
-    components.html(t.read(), width=1200, height=2000, scrolling=True)
+    components.html(t.read(), width=3000, height=2000, scrolling=True)
